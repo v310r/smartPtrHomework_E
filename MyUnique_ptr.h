@@ -6,7 +6,7 @@ class MyUnique_ptr
 private:
     CObject* ptr;
 public:
-    MyUnique_ptr(CObject* pointer = nullptr);
+    MyUnique_ptr(CObject* pointer);
     MyUnique_ptr(MyUnique_ptr&& other);
     ~MyUnique_ptr();
     MyUnique_ptr(const MyUnique_ptr&) = delete;
